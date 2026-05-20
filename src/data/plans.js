@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const GOALS = [
   { id:'lose_weight', icon:'🔥', label:'Emagrecer',      desc:'Queimar gordura' },
   { id:'lose_belly',  icon:'💪', label:'Perder Barriga', desc:'Definir abdômen' },

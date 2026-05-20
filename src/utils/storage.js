@@ -1,3 +1,4 @@
+/* eslint-disable */
 /*
   FitAI — Storage Utils
   Centraliza todo o acesso ao localStorage

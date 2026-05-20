@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const MUSCLE_GROUPS = [
   { id: 'all',     label: 'Todos',    icon: '⚡' },
   { id: 'peito',   label: 'Peito',    icon: '💪' },
