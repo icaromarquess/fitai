@@ -180,9 +180,7 @@ export default function ActiveWorkout({ workout, absoluteWeek, weekInfo, onFinis
     onFinish();
   };
 
-  const allSeriesDone = workout.exercicios.every(ex =>
-    logs[ex.nome]?.series?.every(s => s.done)
-  );
+
 
   const exLogs = logs[ex?.nome] || { series: [] };
   const lastEx = exIdx > 0 ? logs[workout.exercicios[exIdx-1]?.nome] : null;
